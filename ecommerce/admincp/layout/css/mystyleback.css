@@ -1,0 +1,368 @@
+/* start main roles */
+body{
+	background-color: #eaeaea;
+	font-size: 16px;
+}
+
+.asrto{
+position: absolute;
+right: 25px;
+top:15px;
+font-size: 20px;
+}
+/* end main roles */
+
+/* start login form */
+.login{
+	width: 300px;
+	margin: 100px auto;
+}
+
+.login .form-control{
+	background-color: #606077;
+	color: white;
+}
+
+.hco{
+	color:#666698;
+}
+.hco span{
+	color: #545bb3;
+}
+/* end login form */
+
+/* Bootstrap style */
+.navbar{
+	border-radius: 0;
+	margin-bottom: 0;
+}
+.navbar-brand{
+	font-size: 1em;
+}
+
+.nav > li > a,
+.navbar-brand {
+	padding: 15px 12px;
+}
+
+.navbar-inverse .navbar-nav > .open>a,
+.navbar-inverse .navbar-nav > .open>a:focus,
+.navbar-inverse .navbar-nav > .open>a:hover,
+.dropdown-menu {
+	background-color: #2980b9;
+}
+
+
+
+.dropdown-menu{
+	padding: 0;
+	font-size: 1em;
+	border: none;
+	border-radius: 0;
+}
+
+.dropdown-menu>li>a{
+	color: #fff;
+	padding: 10px 15px;
+}
+
+.form-control{
+	position: relative;
+}
+
+/* end bootstrap */
+
+/* start users page */
+h1{
+	font-size: 45px;
+	margin: 40px 0;
+	font-weight: bold;
+	color: #286090;
+}
+
+.show-pass{
+	position: absolute;
+	top: 15px;
+	right: -5px;
+
+}
+/* end users page */
+
+/* start mange page  */
+.mtable td{
+	vertical-align: middle !important;
+	background-color: #17178a;
+	color: white;
+}
+
+.mtable tr:first-child td{
+	background-color: blue;
+	color: white;
+}
+
+.conf1{
+	margin-left: 3px;
+}
+/* end mange page  */
+
+/* start admin panel */
+
+.home-s .stat{
+	padding: 20px;
+	font-size: 20px;
+	color: white;
+	background-color: #eee;
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.home-s .stat i{
+	font-size: 70px;
+	top: 25px;
+	position: absolute;
+	left: 30px;
+}
+
+.home-s .stat .info{
+	margin-right: -100px;
+	margin-top: 5px;
+
+}
+
+.home-s .stat a{
+	color: white;
+}
+
+.home-s .stat a:hover{
+	text-decoration: none;
+}
+
+.home-s .stat span{
+	display: block;
+	font-size: 35px;
+}
+
+.home-s .st-1{
+	background-color: #8e44ad;
+}
+
+
+.home-s .st-4{
+	background-color: #2c3e50;
+}
+
+.home-s .st-3{
+	background-color: #e67e22;
+}
+
+.home-s .st-2{
+	background-color: #f39c12;
+}
+
+.latest{
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.latest .toggle-info{
+	color: #999;
+}
+
+.latest .toggle-info:hover{
+	color: #444;
+}
+
+.latest-user{
+	margin-bottom: 0px;
+}
+
+.latest-user li{
+	padding: 4px 0;
+	overflow: hidden;
+
+}
+
+.latest-user a{
+	text-decoration: none;
+	color: white;
+}
+
+.latest-user .btn-success{
+	padding: 4px 8px;
+	overflow: hidden;
+
+}
+
+.latest-user .btn-ativ {
+	padding: 4px 8px;
+	overflow: hidden;
+	margin-right: 5px;
+}
+
+.latest .com-box {
+	margin: 5px 0 10px;
+}
+
+.latest .com-box .com-user,
+.latest .com-box .com-com {
+	float: left;
+}
+
+.latest .com-user a {
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+}
+
+.latest .com-user a:hover {
+	font-weight: bold;
+
+}
+
+.latest .com-box .com-user {
+	width: 80px;
+	margin-right: 20px;
+	text-align: center;
+	position: relative;
+	top: 10px;
+}
+
+.latest .com-box .com-com {
+	width: calc(100% - 100px);
+	background-color: #efefef;
+	padding: 10px;
+	position: relative;
+}
+
+.latest .com-box .com-com:before {
+	content: "";
+	display: block;
+	position: absolute;
+	left: -29px;
+	top:5px;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-color: transparent #efefef transparent transparent;
+	border-width: 15px;
+}
+
+.latest .com-box .com-btn{
+	float: right;
+	margin-top: 20px;
+}
+
+/* start  Category page style*/
+
+.categories .add_btn {
+	margin-top: -10px;
+	margin-bottom: 30px;
+}
+
+.categories .panel-heading{
+	color: #5c5c3d;
+	font-weight: bold;
+}
+
+.categories .panel-body {
+	padding: 0px;
+}
+
+.categories .cat {
+	padding: 15px;
+}
+
+.categories hr {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.categories .cat h3 {
+	margin: 0px;
+	cursor: pointer;
+	font-weight: bold;
+
+}
+
+.categories .cat {
+	position: relative;
+	overflow: hidden;
+}
+
+.categories .cat .full-view p {
+	margin: 10px 0;
+	color:  #76763d;
+}
+
+.categories .cat .hidden-but {
+	-wibkit-transition: all .5s ease-in-out;
+	-moz-transition: all .5s ease-in-out;
+	transition: all .5s ease-in-out;
+	position: absolute;
+	top: 15px;
+	right: -129px;
+}
+
+.categories .cat:hover .hidden-but {
+	right: 6px;
+}
+
+
+.categories .cat:hover {
+	background-color: #eaeaea;
+}
+
+.categories .cat .hidden-but a {
+	margin-right: 5px;
+}
+
+.categories .cat:last-of-type ~ hr {
+	display: none;
+}
+
+.categories .cat .Visi {
+	background-color: #B71C1C;
+	color: #fff;
+	padding: 3px 10px;
+	margin-right: 5px;
+	border-radius: 10px; 
+}
+
+.categories .cat .comen {
+	background-color: #D32F2F;
+	color: #fff;
+	padding: 3px 10px;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+
+.categories .cat .addv {
+	background-color: #E91E63;
+	color: #fff;
+	padding: 3px 10px;
+	margin-right: 5px;
+	border-radius: 10px;
+}
+
+.categories .Option {
+	color: blue;
+
+}
+
+.categories .Option a {
+	color: #888;
+	text-decoration: none;
+}
+
+.categories .Option span {
+	color: #888;
+	cursor: pointer;
+}
+
+.categories .Option .active {
+	color: red;
+}
+/* end  Category page style */
+
+/* end admin panel */
